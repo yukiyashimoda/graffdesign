@@ -15,10 +15,10 @@ function srcset(image: string, size: number, rows = 1, cols = 1) {
 export default function QuiltedImageList() {
   return (
     <div style={{ marginLeft: '20px', textAlign: 'left', height: "100vh", }}>
-      <Typography variant="h4" style={{ fontSize: '25px', fontFamily: 'Roboto, sans-serif', fontWeight: '600', letterSpacing: 10, color: '#b8d200', marginBottom: '50px' }}>
+      <Typography variant="h4" style={{ fontSize: '15px', fontFamily: 'Roboto, sans-serif', fontWeight: '600', letterSpacing: 10, color: '#b8d200', marginBottom: '50px' }}>
         Works
       </Typography>
-      <Typography variant="body1" style={{ fontSize: '15px', fontFamily: 'Roboto, sans-serif', fontWeight: '400', letterSpacing: 5, lineHeight: '30px', marginBottom: '50px'}}>
+      <Typography variant="body1" style={{ fontSize: '12px', fontFamily: 'Roboto, sans-serif', fontWeight: '400', letterSpacing: 5, lineHeight: '30px', marginBottom: '50px'}}>
       飲食店を中心とした制作実績を持ち、小規模なプロジェクトなどトータルでのデザインを得意としています。<br />
       </Typography>
       <ImageList

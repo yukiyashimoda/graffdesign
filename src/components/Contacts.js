@@ -18,6 +18,8 @@ export default function Contacts() {
         alignItems: "center",
         justifyContent: "center",
         height: "100vh",
+        marginTop: "15px",
+        marginBottom: "15px"
       }}
     >
       <Box
