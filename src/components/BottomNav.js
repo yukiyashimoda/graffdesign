@@ -15,7 +15,7 @@ function BottomNav() {
     <BottomNavigation
       sx={{
         backgroundColor: 'rgba(0, 0, 0, 0.2)', // 黒の半透明背景
-        backdropFilter: 'blur(8px)', // 背景のぼかし効果を追加（必要に応じて調整）
+        backdropFilter: 'blur(4px)', // 背景のぼかし効果を追加（必要に応じて調整）
         position: 'fixed',
         bottom: 0,
         left: 0,
