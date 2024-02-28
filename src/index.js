@@ -7,7 +7,7 @@ import BottomNav from '../src/components/BottomNav';
 import News from '../src/components/News';
 import About from '../src/components/About'; 
 import Works from '../src/components/Works'; 
-import Contacts from '../src/components/Contacts'; 
+
 
 function Overlay() {
   return (
@@ -31,6 +31,5 @@ createRoot(document.getElementById('root')).render(
     <News />
     <About /> 
     <Works />
-    <Contacts />
   </>
 );
