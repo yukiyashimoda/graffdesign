@@ -22,11 +22,11 @@ export default function QuiltedImageList() {
       飲食店を中心とした制作実績を持ち、小規模なプロジェクトなどトータルでのデザインを得意としています。<br />
       </Typography>
       <ImageList
-  sx={{ width: '96%', height: `calc(100vh - ${CONTACTS_HEIGHT}px)`, overflowY: "auto" }} // heightを修正
-  variant="quilted"
-  cols={4}
-  rowHeight={121}
->
+        sx={{ width: '96%', height: 750 }}
+        variant="quilted"
+        cols={4}
+        rowHeight={121}
+      >
         {itemData.map((item) => (
           <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
             <img
