@@ -32,7 +32,8 @@ function BottomNav() {
         label={
           <Typography 
             sx={{ 
-              color: 'rgba(128, 128, 128, 0.9)', // グレーの色
+              color: 'rgba(128, 128, 128, 0.9)', 
+              fontSize: '10px',
             }}
           >
             News
@@ -44,7 +45,8 @@ function BottomNav() {
         label={
           <Typography 
             sx={{ 
-              color: 'rgba(128, 128, 128, 0.9)', // グレーの色
+              color: 'rgba(128, 128, 128, 0.9)', 
+              fontSize: '10px',
             }}
           >
             Works
@@ -56,7 +58,8 @@ function BottomNav() {
         label={
           <Typography 
             sx={{ 
-              color: 'rgba(128, 128, 128, 0.9)', // グレーの色
+              color: 'rgba(128, 128, 128, 0.9)', 
+              fontSize: '10px',
             }}
           >
             Contact
