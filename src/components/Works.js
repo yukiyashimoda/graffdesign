@@ -14,7 +14,7 @@ function srcset(image: string, size: number, rows = 1, cols = 1) {
 
 export default function QuiltedImageList() {
   return (
-    <div style={{ marginLeft: '20px', textAlign: 'left', height: "100vh", }}>
+    <div style={{ marginLeft: '20px', textAlign: 'left', height: "200vh", }}>
       <Typography variant="h4" style={{ fontSize: '15px', fontFamily: 'Roboto, sans-serif', fontWeight: '600', letterSpacing: 10, color: '#b8d200', marginBottom: '50px' }}>
         Works
       </Typography>
