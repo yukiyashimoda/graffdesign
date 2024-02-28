@@ -22,7 +22,7 @@ export default function QuiltedImageList() {
       飲食店を中心とした制作実績を持ち、小規模なプロジェクトなどトータルでのデザインを得意としています。<br />
       </Typography>
       <ImageList
-        sx={{ width: '96%', height: 750 }}
+        sx={{ width: '96%', height: 750, marginBottom: '50px'}}
         variant="quilted"
         cols={4}
         rowHeight={121}
