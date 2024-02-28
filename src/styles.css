@@ -11,7 +11,6 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden; /* スクロールバーを非表示にする */
 }
 
 body {
@@ -22,7 +21,11 @@ body {
 
 a {
   color: #f0f0f0;
+}
+
+a {
   pointer-events: all;
+  color: #f0f0f0;
   text-decoration: none;
 }
 
@@ -47,7 +50,7 @@ canvas {
 
 input {
   font-family: 'Inter';
-  width: 100%;
+  width: 100px;
   border: none;
   background-image: none;
   background-color: transparent;
