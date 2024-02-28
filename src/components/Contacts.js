@@ -17,7 +17,7 @@ export default function Contacts() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        height: "100vh",
+        height: "120vh",
         marginTop: "15px",
         marginBottom: "15px"
       }}
