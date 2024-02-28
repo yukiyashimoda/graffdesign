@@ -17,7 +17,7 @@ export default function Contacts() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        height: "80vh",
+        height: "100vh",
       }}
     >
       <Box
