@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 
 export default function About() {
   return (
-    <div style={{ margin: '20px', height: "100vh",justifyContent: 'center',}}>
+    <div style={{ margin: '20px', height: "80vh",justifyContent: 'center',}}>
       <div style={{ marginBottom: '20px' }}>
         <Typography variant="h4" style={{ fontSize: '15px', fontFamily: 'Roboto, sans-serif', fontWeight: '600', letterSpacing: 10, color: '#b8d200', marginBottom: '50px' }}>About</Typography>
       </div>
