@@ -14,13 +14,13 @@ function BottomNav() {
   return (
     <BottomNavigation
       sx={{
-        backgroundColor: 'rgba(0, 0, 0, 0.5)', // 黒の半透明背景
+        backgroundColor: 'rgba(0, 0, 0, 0.3)', // 黒の半透明背景
         backdropFilter: 'blur(8px)', // 背景のぼかし効果を追加（必要に応じて調整）
         position: 'fixed',
         bottom: 0,
         left: 0,
         width: '100%',
-        zIndex: 999, // z-indexを999に設定
+        zIndex: 999, 
       }}
       showLabels
       value={value}
