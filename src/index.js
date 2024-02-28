@@ -13,10 +13,10 @@ function Overlay() {
   return (
     <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
       <GraffLogo style={{ position: 'absolute', top: 0, left: 0}} />
-      <a href="" style={{ position: 'absolute', bottom: 280, left: 20, fontSize: '12px', fontFamily: 'serif' ,letterSpacing: 5}}>
+      <a style={{ position: 'absolute', bottom: 280, left: 20, fontSize: '12px', fontFamily: 'serif' ,letterSpacing: 5}}>
         ビジョンを可視化するデザイン
       </a>
-      <a href="" style={{ position: 'absolute', bottom: 80, left: 20, fontSize: '45px', fontFamily: 'Roboto, sans-serif', fontWeight: 'bold', letterSpacing: 10}}>
+      <a style={{ position: 'absolute', bottom: 80, left: 20, fontSize: '45px', fontFamily: 'Roboto, sans-serif', fontWeight: 'bold', letterSpacing: 10}}>
         Visualizing<br />Your<br />Vision
       </a>
     </div>

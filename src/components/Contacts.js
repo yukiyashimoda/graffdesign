@@ -37,10 +37,6 @@ export default function Contacts() {
         <Typography variant="h4" align="left" mb={2} style={{ fontSize: '30px', fontFamily: 'Roboto, sans-serif', fontWeight: 'bold', letterSpacing: 10, marginBottom:'50px'}}>
           Contact Us
         </Typography>
-        <Typography variant="body1" style={{ fontSize: '15px', fontFamily: 'Roboto, sans-serif', fontWeight: 'bold', letterSpacing: 5, marginBottom: '20px', lineHeight:'30px', justifyContents: 'center'}}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem non
-        est consectetur, non hendrerit odio gravida.
-      </Typography>
         <form onSubmit={handleSubmit} >
           <TextField
             fullWidth
