@@ -13,15 +13,15 @@ export default function Contacts() {
 
   return (
     <Box
-      sx={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        height: "100vh",
-        marginTop: "15px",
-        marginBottom: "15px"
-      }}
-    >
+  sx={{
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "100vh",
+    marginTop: "15px", // Works.jsの下にスペースを空ける
+    marginBottom: "15px" // Works.jsの下にスペースを空ける
+  }}
+>
       <Box
         sx={{
           display: "flex",
