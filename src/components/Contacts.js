@@ -27,11 +27,14 @@ export default function Contacts() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          justifyContent: "center",
           maxWidth: '96%',
           mx: "auto",
           p: 2,
           border: "2px solid  transparent",
           borderRadius: "1px",
+          marginTop: "15px",
+          marginBottom: "15px"
         }}
       >
         <Typography variant="h4" align="left" mb={2} style={{ fontSize: '30px', fontFamily: 'Roboto, sans-serif', fontWeight: 'bold', letterSpacing: 10, marginBottom:'50px'}}>
@@ -45,7 +48,7 @@ export default function Contacts() {
             onChange={(e) => setName(e.target.value)}
             margin="normal"
             required
-            sx={{border: "2px solid  #fff",
+            sx={{border: "1px solid  #fff",
                  borderRadius: "20px", 
                  color: '#f6f6f6',         
                 }}
@@ -58,7 +61,7 @@ export default function Contacts() {
             margin="normal"
             required
             type="email"
-            sx={{border: "2px solid  #fff",
+            sx={{border: "1px solid  #fff",
                  borderRadius: "20px", 
                  color: '#f6f6f6',         
                 }}
@@ -72,7 +75,7 @@ export default function Contacts() {
             required
             multiline
             rows={4}
-            sx={{border: "2px solid  #fff",
+            sx={{border: "1px solid  #fff",
                  borderRadius: "20px", 
                  color: '#f6f6f6',         
                 }}
