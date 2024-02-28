@@ -1,0 +1,71 @@
+// BottomNav.js
+
+import React, { useState } from 'react';
+import BottomNavigation from '@mui/material/BottomNavigation';
+import BottomNavigationAction from '@mui/material/BottomNavigationAction';
+import Typography from '@mui/material/Typography';
+import NewspaperIcon from '@mui/icons-material/Newspaper';
+import CollectionsIcon from '@mui/icons-material/Collections';
+import ContactMailIcon from '@mui/icons-material/ContactMail';
+
+function BottomNav() {
+  const [value, setValue] = useState(0);
+
+  return (
+    <BottomNavigation
+      sx={{
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', // 黒の半透明背景
+        backdropFilter: 'blur(8px)', // 背景のぼかし効果を追加（必要に応じて調整）
+        position: 'fixed',
+        bottom: 0,
+        left: 0,
+        width: '100%',
+        zIndex: 999, // z-indexを999に設定
+      }}
+      showLabels
+      value={value}
+      onChange={(event, newValue) => {
+        setValue(newValue);
+      }}
+    >
+      <BottomNavigationAction 
+        label={
+          <Typography 
+            sx={{ 
+              color: 'rgba(128, 128, 128, 0.9)', // グレーの色
+            }}
+          >
+            News
+          </Typography>
+        } 
+        icon={<NewspaperIcon sx={{ color: 'rgba(128, 128, 128, 0.9)' }} />} 
+      />
+      <BottomNavigationAction 
+        label={
+          <Typography 
+            sx={{ 
+              color: 'rgba(128, 128, 128, 0.9)', // グレーの色
+            }}
+          >
+            Works
+          </Typography>
+        } 
+        icon={<CollectionsIcon sx={{ color: 'rgba(128, 128, 128, 0.9)' }} />} 
+      />
+      <BottomNavigationAction 
+        label={
+          <Typography 
+            sx={{ 
+              color: 'rgba(128, 128, 128, 0.9)', // グレーの色
+            }}
+          >
+            Contact
+          </Typography>
+        } 
+        icon={<ContactMailIcon sx={{ color: 'rgba(128, 128, 128, 0.9)' }} />} 
+      />
+    </BottomNavigation>
+  );
+}
+
+export default BottomNav;
